@@ -1,0 +1,61 @@
+/* combinator selector - css attached to*/
+
+/* div p{
+    color: aqua;
+} */
+
+
+/* child selector[ > ]  css attached to direct child only*/
+/* div > p{
+    color: blue;
+} */
+
+
+  /* adgescent sibling [ + ]  css attached to the only first p tag after closing div tag or first adjescent p tag of closing div tag */
+
+/* div + p{
+    color: brown;                  
+} */
+
+
+/* general siblings- css will attached to all the p tags out of div tag */
+/* div ~ p{
+    color: blueviolet;
+} */
+
+input:focus{
+    background-color: rgb(210, 240, 230);
+    color: darkred;
+
+}
+
+input .inpt:focus{
+    background-color: aquamarine;
+    color: brown;
+}
+
+p.para::first-letter{
+    font-size: x-large;
+    color: crimson;
+}
+h3.heading::first-line{
+    color: rgb(24, 118, 118);
+}
+
+span.spn{
+    font-size: xx-large;
+    color: blue;
+}
+h3.ind{
+    color: crimson;
+    font-size:xx-large;
+}
+
+h3.hlt{
+    color: cadetblue;
+    font-size: small;
+}
+
+label.lbl::before{
+    content: "\26B9"
+}

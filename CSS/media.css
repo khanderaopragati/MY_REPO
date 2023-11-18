@@ -1,0 +1,10 @@
+
+.container{
+    background-color: rgb(243, 189, 118);
+}
+
+@media  screen and (min-width:500px) {
+    .container{
+    background-color: cadetblue;
+    }
+}

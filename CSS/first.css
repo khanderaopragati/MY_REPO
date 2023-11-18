@@ -1,0 +1,47 @@
+                                        /* class selector */
+
+
+
+
+
+.h1-container {
+    color: cadetblue;
+    background-color: bisque;
+}
+
+.para-container {
+    color: brown;
+    background-color: aquamarine;
+    border: 1px dashed;
+    width: 700px;
+    text-align: center;
+}
+
+.angel-ingole {
+    color: crimson;
+}
+
+.parent {
+    height: 50px;
+    width: 400px;
+    background-color: brown;
+}
+
+.heading-section {
+    text-align: center;
+}
+
+
+
+
+                                                        /* id selector */
+    
+#h2-container{
+    color: darkgreen;
+    border: 4px solid blueviolet;
+    width: 300px;
+}                                                   
+
+                                            /* universal selector  */
+ /* universal selector universly applies all its propetries to all tags. */
+ 

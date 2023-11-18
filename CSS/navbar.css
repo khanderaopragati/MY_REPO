@@ -1,0 +1,119 @@
+.parent-container{
+    min-height: 100%;
+    position: relative;
+    /* background-color: rgb(50, 131, 131); */
+    background-image:url("C:/software developer/CSS/drop-3698073_1280.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+.dropdown a:hover{
+    background-color: rgb(121, 243, 202);
+}
+
+.dropdown{
+    background-color: rgb(195, 236, 222);
+    overflow: hidden;
+    
+}
+
+.dropdown a{
+    text-decoration: none;
+    float: left;
+    padding: 5px 5px;
+    font-size: 20px;
+}
+
+.dropdown-container{
+    overflow: hidden;
+    float: left;
+}
+
+.dropbtn{
+    background-color:rgb(228, 16, 129);
+    padding: 5px 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+}
+
+.dropdown-content{
+    position: absolute;
+    min-width: 100px;
+    background-color: rgb(187, 245, 245);
+    display: none;
+    z-index: 1;
+    text-align: center;
+    top: 33px;
+}
+
+.dropdown-content a{
+    text-decoration: none;
+    display: block;
+    padding: 5px 5px;
+    float: none;
+}
+
+.dropdown-container:hover .dropdown-content{
+    display: block;
+    z-index: 1;
+}
+
+.dropbtn{
+    opacity: 0.5;
+}
+
+.dropdown-content a:hover{
+    background-color: aqua;
+}
+
+.link-3-container{
+    overflow: hidden;
+}
+
+.dropdown-link3-content{
+    position: absolute;
+    min-width: 120px;
+    background-color: rgb(237, 212, 182);
+    display: none;
+    top: 75px;
+    left: 100px;
+    text-align: center;
+}
+
+.link-3-container:hover .dropdown-link3-content{
+    display: block;
+}
+
+
+ /* footer */
+ .footer{
+   border: 1px solid black;
+    position: fixed;
+    bottom: 0px;
+    width: 1000px;
+    background-color: rgb(241, 142, 142);
+}
+
+.form-container{
+    background-color: antiquewhite;
+    border: 1px solid black;
+    width: 221px;
+    text-align: center;
+    margin-block-end: auto;
+    position: relative;
+    top: 120px;
+    
+}
+
+.sbt-btn{
+    padding: 15px 15px;
+    background-color: bisque;
+}
+
+.text-container{
+color: rgb(246, 246, 246);
+/* overflow: scroll y-axis; */
+}

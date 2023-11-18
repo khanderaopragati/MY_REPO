@@ -1,0 +1,43 @@
+
+/* world break-break all */
+.para{
+    border: 1px solid black;
+    width: 50px;
+   word-break: break-all;
+
+}
+/* world wrap-break world */
+.para-2{
+    border: 1px solid black;
+    width: 50px;
+   word-wrap: break-word;
+}
+
+.space{
+    word-spacing: 20px;
+}
+
+/* pseudo class[::] */
+p::selection{
+    color: rgb(11, 143, 143);
+    background-color: coral;
+}
+
+
+/* pseudo classess : state of element */
+:link {
+    color: blue;
+}
+a:visited {
+    color: brown;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+a:active{
+    color: deeppink;
+}
+
+
