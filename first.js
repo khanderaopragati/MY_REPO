@@ -1,3 +1,3 @@
-console.log(pragati);
-console.log(Rajkumar);
-console.log(Khanderao);
+console.log("pragati");
+console.log("rajkumar");
+console.log("Khanderao");
