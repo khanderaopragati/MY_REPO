@@ -1,6 +1,6 @@
 // data types  1. premative   2. non premative
-// the premative data types : single value holder in java script include Number, string, boolean, undefined, 
-// null, symbol. 
+// the premative data types : single value holder in java script include Number, string, boolean,
+ //undefined,  null, symbol. 
 // non premative data types : object 
 
 // number: whole number or decimal number
