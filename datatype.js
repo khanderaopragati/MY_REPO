@@ -28,24 +28,25 @@ console.log(typeof(b));
 
 // null
 let c=null;
-console.log('c',typeof(c));
+console.log(typeof(c));
 
 // bigint
-let cash = 99999999999;
+let cash = 9986594;
 document.write(cash);
+console.log(cash);
 
 // array []: array is used to store multiple values in single variable. we can list heterogeneous data 
 // of different datatypes. 
 
 var studentnames = ["pragati" , "angel" , "nilesh", "400", "test()"];  //heterogeneous array
-document.write("studentnames >>", studentnames);
+document.write(studentnames);
 console.log(studentnames);
 function test(){
     return "amravati";
 }
 
 let colors=['orange', 'red', 'green', 'white', 'black'];  //homogeneous array
-document.write('colors >>', colors);
+document.write(colors);
 
 let colors2 = ["red", "green", "blue", "yellow", "white"]
 document.write("<br>", colors2[4])
