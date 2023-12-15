@@ -69,3 +69,37 @@ console.log(student2[0]);
 console.log(student2[0].age);
 console.log(student2[2].city);
 console.log(student2.length);
+
+// let / var / const difference
+// let keyword have block level scope and var keyword have function level scope. 
+
+
+//redeclairation of of variable is possible with var not with let keyword.
+// let a1 = 12;
+//  let a1 = 22;
+//  console.log(a1);
+
+var b1 = 45;
+var b1 = 74;
+console.log(b1);
+
+//hoisting : hoisting is possible with var keyword and not possible wit let / const keyword. 
+//t = 60;
+//let t;
+
+t = 60;
+var t;
+console.log(t);
+
+//reassigning value is possible with keyword var and let but not possible with const.
+let d = 60;
+    d = 38;
+    console.log(d);
+
+    var p = 67;
+        p = 75;
+        console.log(p);
+
+        // const g = 90;
+        //     g = 55;
+        //     console.log(g);
