@@ -27,22 +27,22 @@ console.log(details.toUpperCase());
 // string lowercase: given data converts into small letters.
 console.log(details.toLowerCase());
 
-// string concate
+// string concate  :  concat() joins two or more strings.
 let a = "pragati";
     b = "khanderao";
-    let surname = a.concat(" ",b);
+    let surname = a.concat("     ",b);
     console.log(surname);
 
-//string trim method: it neglects all the starting and ending space. 
-let text2 = "   hello      world ";
+//string trim method: it removes all the spaces from both sides of string. 
+let text2 = "        hello      world ";
 let text3 =  text2.trim();
 console.log(text3);
 
-//start trim: it neglects all starting space.
+//start trim: it removes all the starting spaces.
 let text4 = text2.trimStart();
 console.log(text4);
 
-//end trim: it neglects all ending spaces.
+//end trim: it removes all the ending spaces.
 let text5 = text2.trimEnd();
 console.log(text5);
 
