@@ -55,6 +55,7 @@ document.write("<br>", colors2[4])
 console.log(colors2. length);
 
 // object: {key : value}
+//Objects are variables too. But objects can contain many values.
 let student = {name: "pooja", age:"22", city: "pune"}
 let emp={}; //empty object
 console.log(student.city);
