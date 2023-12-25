@@ -93,7 +93,7 @@ let stud = {
     age: "26"
 }
 for(let a in stud){
-    // console.log(a);
+  //   console.log(a);
     console.log(stud[a]);
 }
 
@@ -138,3 +138,45 @@ test = () =>{
 }
 
 test = () => "pragati"
+
+
+let z = ["my", "name", "is", "pragati", "rajkumar", "khanderao", "from", "akot"]
+let z1 = [];
+// for (let r=0; r<z.length; r++){
+//     if (z[r] != "khanderao"){
+//         z1.push(z[r])
+//     }
+// }
+// console.log(z1);
+
+
+// for (let r = 0; r<z.length; r++){
+//     if (z[r] ==  "rajkumar"){
+//         z1.push(z[r])
+//     }
+// }
+// console.log(z1);
+
+
+// for (let x of z){
+//     z1.push(x)
+// }
+// console.log(z1);
+
+// for (let r = 2; r<z.length; r++){
+//     if (z[r] != "name" && z[r] != "pragati" && z[r] != "from"){
+//         z1.push(z[r])
+//     }
+// }
+// console.log(z1);
+
+
+let info={
+    name : "Pragati",
+    address : "nagpur",
+    mobile : "33875",
+    pin : "543549859",
+}
+for (let a in info){
+  //  console.log(a);
+console.log(info[a]);}
