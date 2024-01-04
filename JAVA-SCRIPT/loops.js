@@ -180,3 +180,12 @@ let info={
 for (let a in info){
   //  console.log(a);
 console.log(info[a]);}
+
+
+
+
+
+
+
+
+
