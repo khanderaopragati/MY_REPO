@@ -1,0 +1,49 @@
+<p>directives works!</p>
+<div class="div-container" *ngIf="showdiv"></div>
+<br>
+<button (click)="toggle()">toggle</button>
+
+<ul>
+    <li>coffee</li>
+    <li>tea</li>
+    <li>milk</li>
+    <li>sugar</li>
+    <li>sweet</li>
+    <li>hot</li>
+    <li>cold</li>
+</ul>
+
+<ul>
+    <li>{{listItem}}</li>
+</ul>
+
+<ul>
+    <li *ngFor = " let items of listItem">{{items}}</li>
+</ul>
+
+<ul>
+    <li *ngFor = "let model of cars">{{model}}</li>
+</ul>
+
+
+<div>
+    <p *ngIf ="color === 'pink'"> I like pink </p>
+</div>
+
+<div [ngSwitch]="true">
+    <p *ngSwitchCase="color==='pink'">I like {{color}}</p>
+    <p *ngSwitchCase="color==='yellow'">I like {{color}}</p>
+    <p *ngSwitchCase="color==='black'">I like {{color}}</p>
+    <p *ngSwitchCase="color==='white'">I like {{color}}</p>
+    <p *ngSwitchCase="color==='green'">I like {{color}}</p>
+    <p *ngSwitchDefault>I don't like color</p>
+</div>
+
+<div style="color: rgb(118, 29, 242); font-size: 30px;"> I like mumbai</div>
+<div [ngStyle]="{backgroundColor:getColor()}"> my name is pragati</div> <br>
+
+<div class="div-container1"> I love my India</div>
+
+<div [class.div-container]="journey=='admin'"
+     [class.div-container1]="journey=='owner'"
+     [class.div-container2]="journey=='user'">I like India</div>

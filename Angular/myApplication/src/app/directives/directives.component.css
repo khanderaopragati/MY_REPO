@@ -1,0 +1,14 @@
+.div-container{
+    height: 100px;
+    width: 100px;
+    border: 2px solid;   
+    background-color: aqua;
+   }
+
+   .div-container1{
+    background-color: chartreuse;
+   }
+   
+   .div-container2{
+    background-color: rgb(239, 76, 76);
+   }

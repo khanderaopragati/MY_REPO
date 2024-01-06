@@ -1,0 +1,41 @@
+
+<div>welcome to databinding</div>
+
+<p>databinding works!</p>
+
+
+<!-- string inter polation -->
+<p>{{title}}</p>
+<p>{{a}}</p>
+<div>{{city}}</div>
+
+<div>{{a1}}</div>
+<div>{{b1}}</div>
+<div>{{car}}</div>
+
+
+<!-- property binding -->
+<input type="text" value="khanderao"> <br>
+<input type="text" value="myName"><br>
+<input type="text" [value]="myName"><br>
+<input type="text" value="{{myName}}"><br>
+
+<input type="text" [disabled]="isDisable"><br>
+<input type="text" disabled="{{isDisable}}"> <br>
+
+<input type="text" [value]="myCar"><br>
+<input type="text" [value]="day"><br>
+<input type="text" value = {{myCar}}> <br>
+<input type="text" value = {{day}}> <br>
+
+
+<!-- event binding -->
+<button (click)="submit()">submit</button>
+<div>{{fruit}}</div>
+
+<button (click)="submit1()">submit1</button>
+<div>{{animal}}</div>
+
+<!-- two way data binding -->
+<input type="text"[(ngModel)]="favfruit">enter your favourute fruit <br>
+{{favfruit}}
