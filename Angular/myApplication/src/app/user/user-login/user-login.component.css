@@ -1,0 +1,40 @@
+
+
+.form-container{
+    background-color: antiquewhite;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    }
+
+    .error-msg{
+        color: red;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .exam-form{
+        position: absolute;
+        top: 50px;
+        background-color: bisque;
+        height: 500px;
+        width: 300px;
+        border: 3px solid black;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .form-error{
+        color: red;
+    }

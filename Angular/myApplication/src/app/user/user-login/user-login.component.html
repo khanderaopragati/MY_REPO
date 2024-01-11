@@ -1,1 +1,59 @@
 <p>user-login works!</p>
+
+
+
+<div class="form-container">
+    <h2>login-form</h2>
+    <form #loginForm="ngForm">
+        <label>UserName</label><br>
+        <input type="text" #userName="ngModel" ngModel name="u-name" required pattern="^[a-zA-Z]*$" minlength="5" maxlength="20">
+        <div *ngIf="userName?.errors?.['required'] &&userName?.touched" class="error-msg">user name is required</div>
+        <div class="error-msg" *ngIf="userName?.errors?.['pattern'] && !userName?.errors?.['minlength']">Username must be Alphabets</div>
+        <div class="error-msg" *ngIf="userName?.errors?.['minlength']  ">minimum 5 alphabets are required</div>
+        <br>
+    
+        <label for="">Password</label><br>
+        <input type="text" #password="ngModel" ngModel name="password" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,12}$">
+        <div  *ngIf="password?.errors?.['required'] &&password?.touched"  class="error-msg">password is required</div>
+        <div  *ngIf="password?.errors?.['pattern']"  class="error-msg">Invalid Pattern</div>
+        <i class="bi bi-eye-slash-fill"></i>
+
+        <br>
+        <label for="">Email</label><br>
+        <input type="text" #email="ngModel" ngModel name="email" required>
+        <div *ngIf="email?.errors?.['required'] && email?.touched "  class="error-msg">E-mail is optional</div>
+
+        <br><br>
+        <button (click)="login(loginForm.value)">Submit</button>
+    </form>
+</div>
+
+
+
+
+<div class="exam-form">
+    
+   
+        <h2>Exam-Form</h2><br>
+        <form #examform="ngForm">
+
+        <label>Student Name</label><br>
+        <input type="text" #studname="ngModel" ngModel name="stud-name" required >
+        <div *ngIf="studname?.errors?.['required'] && studname?.touched" class="form-error">required</div><br><br>
+
+        <label>Collage Name</label><br>
+        <input type="text" #collagename="ngModel" ngModel name="collagename" required>
+        <div *ngIf="collagename?.errors?.['required'] && collagename?.touched" class="form-error">required</div><br><br>
+
+        <label> address</label><br>
+        <input type="text" #address="ngModel" ngModel name="address" ><br><br>
+
+        <label>Mobile Number</label><br>
+        <input type="number" #number="ngModel" ngModel name="number" required pattern="^[0-9]*$" minlength="10" maxlength="10"><br>
+        <div class="form-error" *ngIf="number?.errors?.['maxlength']">invalid number</div>
+
+        <button (click)="login(examform.value)">submit</button>
+
+       
+    </form>
+</div>

@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class UserLoginComponent {
 
+  login(data:any){
+    console.log(data);
+    
+  }
+  
 }
